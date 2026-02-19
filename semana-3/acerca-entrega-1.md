@@ -24,12 +24,15 @@ Para cumplir con los criterios de Código Limpio, su repositorio debe seguir est
 
 ```bash
 nombre-del-proyecto/
+├── .github/
+│   └── workflows/
+│       └── tests.yml         # Flujo automático para tests y lint en github
 ├── data/
 │   └── database.json         # Nuestra "Base de Datos" local
+├── main.py                   # Interfaz de usuario (Textual o Typer+Rich)
 ├── src/
 │   └── mi_app/
 │       ├── __init__.py
-│       ├── cli.py            # Interfaz de usuario (Textual o Typer+Rich)
 │       ├── models.py         # Definición de datos (Dataclasses)
 │       ├── services.py       # Reglas de negocio (Lógica del CRUD)
 │       ├── storage.py        # Capa de persistencia (Lectura/Escritura JSON)
