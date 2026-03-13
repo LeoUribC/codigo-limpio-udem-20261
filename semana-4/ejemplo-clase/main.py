@@ -1,4 +1,4 @@
-def process_order(order) -> None:
+def process_order(order: dict) -> dict:
 
     # Validaciones
     if order.get("order_id") is None or order["order_id"] <= 0:
