@@ -62,7 +62,9 @@ docs/
 >Para que tengan una buena guía de cómo puede verse su documentación o qué incluir, les recomiendo que lean este link sobre [Diátaxis](https://diataxis.fr/start-here/).
 
 > [!WARNING]
-> Recuerden actualizar el elemento de `nav` en sus archivos de `mkdocs.yml` para que la estructura de páginas sea reconocida correctamente.
+> Recuerden actualizar el elemento de `nav` en sus archivos de `mkdocs.yml` para que la estructura de páginas sea reconocida correctamente. Pueden
+> tomar de referencia el archivo `mkdocs.yml` y los archivos `.github/workflows/tests.yml` y `.github/workflows/docs.yml` del
+> [repo de prueba](https://github.com/LeoUribC/sample-user-storage#).
 
 ### Descripción de cada sección
 
